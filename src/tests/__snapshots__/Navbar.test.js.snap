@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` tests should render 1`] = `[Function]`;
+
+exports[`Header tests should render 1`] = `[Function]`;
+
+exports[`Na tests should render 1`] = `[Function]`;
+
+exports[`Navbar tests should render 1`] = `[Function]`;
