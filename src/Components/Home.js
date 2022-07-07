@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { BsArrowRightCircle } from 'react-icons/bs';
 import Navbar from './Navbar';
 
-import { fetchDataApi } from '../redux/Data/data';
+import { fetchDataApi } from '../redux/Data/actions';
 
 const Home = () => {
     const [searchText, setSearchText] = useState('');
