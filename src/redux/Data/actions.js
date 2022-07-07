@@ -1,7 +1,7 @@
 import Axios from 'axios';
 
 const FETCHDATA = 'FETCHDATA';
-const link = 'https://api.covid19api.com/summary';
+const BASE_URL = 'https://api.covid19api.com/summary';
 
 
 const fetchData = (data) => ({
@@ -10,6 +10,6 @@ const fetchData = (data) => ({
 });
 
 export const fetchDataApi = () => async (dispatch) => {
-    const data = await Axios.get(link);
+    const data = await Axios.get(BASE_URL);
     dispatch(fetchData(data));
 };
