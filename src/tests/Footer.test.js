@@ -6,18 +6,18 @@ import Footer from '../Components/Footer';
 import store from '../redux/configStore';
 
 describe('Footer tests', () => {
-    test('should render', () => {
-        expect(Footer).toMatchSnapshot();
-    });
+  test('should render', () => {
+    expect(Footer).toMatchSnapshot();
+  });
 
-    test('Checks if footer content is there by checking text', () => {
-        render(
-            <Provider store={store}>
-                <BrowserRouter>
-                    <Footer />
-                </BrowserRouter>
-                ,
-            </Provider>
-        );
-    });
+  test('Checks if footer content is there by checking text', () => {
+    render(
+      <Provider store={store}>
+        <BrowserRouter>
+          <Footer />
+        </BrowserRouter>
+        ,
+      </Provider>,
+    );
+  });
 });

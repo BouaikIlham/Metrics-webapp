@@ -6,22 +6,22 @@ import Navbar from '../Components/Navbar';
 import store from '../redux/configStore';
 
 describe('Navbar tests', () => {
-    test('should render', () => {
-        expect(Navbar).toMatchSnapshot();
-    });
+  test('should render', () => {
+    expect(Navbar).toMatchSnapshot();
+  });
 
-    test('Checks if header content is there by checking the logo text', () => {
-        render(
-            <Provider store={store}>
-                <BrowserRouter>
-                    <Navbar />
-                </BrowserRouter>
-                ,
-            </Provider>
-        );
+  test('Checks if header content is there by checking the logo text', () => {
+    render(
+      <Provider store={store}>
+        <BrowserRouter>
+          <Navbar />
+        </BrowserRouter>
+        ,
+      </Provider>,
+    );
 
-        expect(
-            screen.getByRole('heading', { name: /COVID METRICS/i })
-        ).toBeInTheDocument();
-    });
+    expect(
+      screen.getByRole('heading', { name: /COVID METRICS/i }),
+    ).toBeInTheDocument();
+  });
 });
