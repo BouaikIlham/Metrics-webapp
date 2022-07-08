@@ -21,7 +21,7 @@ describe('Navbar tests', () => {
     );
 
     expect(
-      screen.getByRole('heading', { name: /COVID METRICS/i }),
+      screen.getByRole('heading', { name: /2022/i }),
     ).toBeInTheDocument();
   });
 });
