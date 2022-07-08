@@ -36,12 +36,10 @@ const Home = () => {
                 <div className="header-wrapper">
                     <div className="header">{ }</div>
                     <div className="date-title">
-                        <h2>{new Date().getFullYear()}</h2>
-                        <p>COVID UPDATE</p>
+                        <p>COVID-19</p>
                     </div>
                     <div className="cases-title">
                         <h2>{global?.TotalConfirmed.toLocaleString()}</h2>
-                        <p>CASES WORLD-WIDE</p>
                     </div>
                 </div>
                 <div className="all-stats">

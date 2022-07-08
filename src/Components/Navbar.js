@@ -13,7 +13,7 @@ const Navbar = (props) => {
         <header>
             {conditionProp ? (
                 <>
-                    <h1>COVID METRICS</h1>
+                    <h1>2022</h1>
                     <div className="right">
                         <FiSettings className="settings" />
                     </div>
