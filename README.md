@@ -1,51 +1,56 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Metrics webapp
 
-> Description the project.
+> This React capstone project is about building a mobile web application to check a list of metrics (numeric values) that I created making use of React and Redux.
+
+I selected an API that provides numeric data about a Covid-19 that I like and I build the webapp around it. The webapp  have several pages:
+
+one page with a list of items that filtered by some parameters . This page is homepage.
+one page for the item details.
+
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- React 
+- Redux
+- Linters
+- Testing
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://beamish-alfajores-a4c4f4.netlify.app)
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
 ### Setup
+-  open terminal and clone the project: git clone git@github.com:BouaikIlham/metrics-webapp.git
+- cd into the directory Metrics webapp
 
 ### Install
-
-### Usage
+- On your terminal run : `npm i`
+- To run the app in the development mode : `npm start`
+- Launch the test runner : `npm test`
+- To build the app for production : `npm run build`
 
 ### Run tests
-
-### Deployment
+- install @testing-library/jest-dom
+- run npm test
 
 ## Authors
 
+
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub : [@bouaik ilham](https://github.com/BouaikIlham)
+- Twitter: [@IlhamBouaik](https://twitter.com/IlhamBouaik)
+- LinkedIn: [@BouaikIlham](https://www.linkedin.com/in/bouaik-ilham-478478230/)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
 
 ## 🤝 Contributing
 
