@@ -22,7 +22,10 @@
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+## Credits 
+
+Original Design: [Nelson Sakwa on Behance.
+](https://www.behance.net/sakwadesignstudio)
 
 ### Setup
 
